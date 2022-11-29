@@ -15,12 +15,23 @@ describe('helloWorld', function() {
 });
 describe('sayHello', function(){
     it(' should be defined as a function', function(){
-        expect(typeof sayHello).toBe('function')
-    })
+        expect(typeof sayHello).toBe('function');
+    });
     it('should return a string when called', function(){
         expect(typeof sayHello()).toBe("string");
-    })
+    });
     it('should return string "Hello, Pat!" when executed', function(){
         expect(sayHello()).toBe( "Hello, Pat!");
+    });
+});
+describe ('isFive', function(){
+    it('should be defined as a function', function(){
+        expect(typeof isFive).toBe('function');
+    });
+    it('Function only return a Boolean no matter input', function(){
+        expect(typeof isFive()).toBe('boolean');
+    });
+    it('should return "5" true', function(){
+        expect(typeof isFive("5").toBeTruthy())
     })
-})
+});
