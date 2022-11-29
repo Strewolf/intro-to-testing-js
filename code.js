@@ -3,10 +3,10 @@ function helloWorld() {
     return "Hello, World!";
 }
 function sayHello(input){
-    if (input === "Alex") {
-        return "Hello, Jane!"
+    if (input == "Pat") {
+        return "Hello, Pat!"
     } else {
-        return "Hello, Alex!"
+        return "Hello, Jane!"
     }
 }
 
