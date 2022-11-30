@@ -32,6 +32,6 @@ describe ('isFive', function(){
         expect(typeof isFive()).toBe('boolean');
     });
     it('should return "5" true', function(){
-        expect(typeof isFive("5").toBeTruthy())
+        expect(typeof isFive("5").toBe("Boolean"))
     })
 });
