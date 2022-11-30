@@ -14,4 +14,7 @@ if (input==5){
 function isEven(input){
     return input % 2 === 0;
 }
+function isVowel(input){
+    return input== 'a'||'e'||'i'||'o'||'u';
+}
 
