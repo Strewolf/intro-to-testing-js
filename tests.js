@@ -83,7 +83,22 @@ describe ('isEven', function(){
             expect(isVowel("A")).toBe(true)
         })
         it('isVowel("y") returns false', function(){
-
+            expect(isVowel("y")).toBe(false)
+        })
+        it('isVowel(4) returns false', function(){
+            expect(isVowel(4)).toBe(false)
+        })
+        it('isVowel(true) or isVowel(false) both return false', function(){
+            expect(isVowel(true)).toBe(false)
+        })
+        it('isVowel("banana") returns false', function(){
+            expect(isVowel("banana")).toBe(false)
+        })
+        it('isVowel() returns false', function(){
+            expect(isVowel()).toBe(false)
+        })
+        it('isVowel(e) returns true', functions(){
+            expect(isVowel(e)).toBe(true)
         })
     })
     })
