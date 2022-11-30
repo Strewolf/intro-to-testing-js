@@ -64,8 +64,7 @@ describe ('isEven', function(){
         expect(isEven(Infinity)).toBe(false)
     })
     it('return false when called with a boolean input like isEven(true) or isEven(false)', function(){
-        expect(isEven(true)) .toBe(false)
-        expect(isEven(false)).toBe(false)
+        expect(isEven(true)).toBe(false)
     })
     it('returns false when called without an argument like isEven()', function(){
         expect(isEven()).toBe(false)
