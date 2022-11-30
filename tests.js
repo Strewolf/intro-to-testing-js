@@ -97,7 +97,7 @@ describe ('isEven', function(){
         it('isVowel() returns false', function(){
             expect(isVowel()).toBe(false)
         })
-        it('isVowel(e) returns true', functions(){
+        it('isVowel(e) returns true', function(){
             expect(isVowel(e)).toBe(true)
         })
     })
