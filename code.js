@@ -14,7 +14,15 @@ if (input==5){
 function isEven(input){
     return input % 2 === 0;
 }
-function isVowel(input){
-    return input== 'a'||'e'||'i'||'o'||'u';
+function isVowel(input) {
+     let vowels=["a", "e","i","o","u"]
+if (typeof input=="string"){
+    return vowels.includes(input.toLowerCase())
+} else{
+    return false
+}
+}
+function add(input,input1){
+    return Number(input)+Number(input1)
 }
 
