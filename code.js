@@ -14,7 +14,7 @@ if (input==5){
 function isEven(input){
     if(input % 2 == 0){
         return true
-    }if(input===true||false){
+    }if(typeof input=='boolean'){
         return false
     } else{
         return false
